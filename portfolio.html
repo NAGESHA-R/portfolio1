@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <script src="https://kit.fontawesome.com/7a6a1ea4e3.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            margin: 4px 20px 0 20px;
+            background-color: black;
+            overflow: hidden;
+
+        }
+
+        nav {
+            width: 90%;
+            position: fixed;
+        }
+
+        .bar {
+            display: flex;
+            flex: column;
+            gap: 5em;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+        }
+
+        li {
+            list-style: none;
+
+        }
+
+        .head {
+            color: fuchsia;
+            text-decoration: none;
+            font-size: larger;
+            cursor: pointer;
+            font-size: 26px;
+        }
+
+        .head:hover {
+            content: "";
+            border-bottom-style: solid;
+            border-bottom-color: yellow;
+            border-bottom-width: 6px;
+            box-shadow: 2px 5px 30px yellow;
+        }
+
+        .profile {
+            width: 30%;
+        }
+
+        #about {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            gap: 8%;
+            color: white;
+        }
+
+        .contents {
+            width: 50%;
+            color: rgb(178, 178, 235);
+            font-size: 20px;
+        }
+
+        .contentBlock {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .fa-square-whatsapp {
+            color: rgb(129, 204, 15);
+            font-size: 40px;
+        }
+
+        .fa-envelope {
+            color: rgb(246, 190, 24);
+            font-size: 40px;
+        }
+
+        .linked {
+            width: fit-content;
+            text-decoration: none;
+            color: white;
+            font-size: 19px;
+        }
+
+        .fa-linkedin {
+            color: rgb(81, 172, 207);
+            font-size: 40px;
+        }
+
+        #educationContent {
+            color: deepskyblue;
+            display: flex;
+            gap: 10%;
+            height: 66%;
+
+        }
+
+        .images {
+            width: 40%;
+        }
+
+        #educationContent section {
+            border-style: solid;
+            border-color: maroon;
+            box-shadow: 0 0 15px rgba(255, 255, 0, 0.699);
+            border-radius: 20px;
+            height: 50vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            margin: 10px 10px 10px 10px;
+            font-family: sans-serif;
+        }
+
+        .information {
+            font-size: 20px;
+            text-align: center;
+        }
+
+        #skillContent {
+            width: 100%;
+            height: 80vh;
+        }
+
+        #skillContent section {
+            height: 69vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h3 {
+            color: chocolate;
+        }
+        #certifidContent {
+            color: deepskyblue;
+            display: flex;
+            gap: 10%;
+
+        }
+        #certifidContent section {
+            border-style: solid;
+            border-color: maroon;
+            box-shadow: 0 0 15px rgba(255, 255, 0, 0.699);
+            border-radius: 20px;
+            height: 50vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            margin: 10px 10px 10px 10px;
+            font-family: sans-serif;
+        }
+        .Cimages{
+            width:80%;
+        }
+        .Cinformation{
+            font-size: 17px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul class="bar">
+            <li><a class="head" href="#about">About</a></li>
+            <li><a class="head" href="#education">Education</a></li>
+            <li><a class="head" href="#skill">Skill</a></li>
+            <!-- <li><a class="head" href="#project">Project</a></li> -->
+            <li><a class="head" href="#certificate">Certificate</a></li>
+        </ul>
+    </nav>
+    <div id="about">
+        <img class="profile" src="profile.png" alt="profile">
+        <div class="contentBlock">
+            <h1 style="color:aqua;">Hi,I'm Nagesha R</h1>
+            <p class="contents">
+                I am coding enthusiastically, which lead me into the software field. This is a memorable thing in my
+                life. I'm excited to work on this designation.
+            </p>
+            <p class="contents">
+                Java and Python are the most popular programming languages, and people are motivated to learn coding
+                because
+                of their logic and construction.
+            </p>
+            <b><i class="fa-brands fa-square-whatsapp">&nbsp;&nbsp;</i>+91 8277076017</b><br><br>
+            <b><i class="fa-sharp fa-solid fa-envelope"></i>&nbsp;&nbsp;&nbsp;</i>rnagesh660@gmail.com</b><br><br>
+            <b><a class="linked" href="https://www.linkedin.com/in/nagesha-r-4a9797273/"><i
+                        class="fa-brands fa-linkedin"></i>&nbsp;&nbsp;&nbsp;</i>linkedin.com</a></b>
+        </div>
+
+    </div>
+    <p style="color:cornsilk;text-align: center;"><small>@Portfolio Recursive star</small></p>
+    <hr
+        style="background-color:rgba(214, 214, 10, 0.638);border:none;box-shadow:0px 0 20px rgba(202, 202, 6, 0.622); width:100%;height:20px;">
+    <br id="education">
+    <div style="margin-top:90px;width:100%;height:100vh;">
+        <h1 style="color:aqua;">Education</h1>
+        <div id="educationContent">
+            <section>
+                <img class="images" src="./school.png" alt="school">
+                <div class="information" style="margin-top:19%;">I have done my primary study at Government High School
+                    Kandegala,There i studied in kannada
+                    medium.In the entrance exam of SSLC(10th) i got 82.24% score.</div>
+            </section>
+            <section>
+                <img class="images" src="./college.png" alt="college"><br>
+                <div class="information">I have done my PUC in state board at Government PU college(Ex-municipal)
+                    Mandya,I have taken
+                    science as my preference and I got 82.83% score in the 12th(2<sup>nd</sup>PUC) exam.</div>
+            </section>
+            <section>
+                <img class="images" src="./degree.png" alt="degree"><br>
+                <div class="information">I'm currently studing B.Tech in computer science and engineering at Reva
+                    University,I have got CGPA
+                    of 9.29 till 5<sup>th</sup> sem.Here i can choose my dream and also path where i want be.</div>
+            </section>
+        </div>
+        <p style="color:cornsilk;text-align: center;margin-top:10px;"><small>@Portfolio Recursive star</small></p>
+        <hr
+            style="margin-top:0;background-color:rgba(214, 214, 10, 0.638);border:none;box-shadow:0 0 20px rgba(238, 238, 19, 0.622); width:100%;height:20px;">
+    </div>
+    <br id="skill">
+    <div>
+        <h1 style="color:aqua;margin-left:10%;" id="skill">Skills</h1>
+        <div id="skillContent">
+            <section>
+                <div
+                    style="margin-bottom: 3%; color:aqua; width:50%;word-spacing: 10px;display: flex;align-items: center;gap:2px;flex-direction: column;border-style:solid;border-radius: 20px;">
+                    <p>
+                    <h3>Programming Language:</h3>C language, Java, Python</p>
+                    <p>
+                    <h3>Database Systems:</h3> MySQL, MongoDb</p>
+                    <p>
+                    <h3>Web Technologies:</h3>
+                    HTML, CSS, JavaScript</p>
+                    <p>Good Communication and
+                        vocabulary Skills</p>
+                </div>
+            </section>
+            <p style="color:cornsilk;text-align: center;margin-top:35px;"><small>@Portfolio Recursive star</small></p>
+            <hr
+                style="background-color:rgba(214, 214, 10, 0.638);border:none;box-shadow:0 0 20px rgba(238, 238, 19, 0.622); width:100%;height:20px;">
+        </div>
+    </div>
+    <br><br><br id="certificate">
+    <div style="margin-top:80px;width:100%;height:100vh;">
+        <h1 style="color:aqua;">Certificates</h1>
+        <div id="certifidContent">
+            <section>
+                <img class="Cimages" src="./udemy.png" alt="Udemy Certificates">
+                <div class="Cinformation" style="margin-top:19%;">I have learnt technologies like HTML5, CSS3,
+                    JAVASCRIPT, JQUERY, NODE JS, GITHUB AND GIT VERSION CONTROL, REACT JS, EXPRESS JS ect.. from these
+                    are all I got a knowledge about web technology</div>
+            </section>
+            <section>
+                <img class="Cimages" src="./best_performance.jpg" alt="best performence"><br>
+                <div class="Cinformation">I was awarded as best performance certificate in the recent skill development
+                    program on SQL, Organized by Reva University. I had great experience in this course by learning new
+                    things.I got an SQL query solving skills.</div>
+            </section>
+            <section>
+                <img class="Cimages" src="./python.png" alt="python"><br>
+                <div class="Cinformation">I have learnt python which is machine learning related,I gained knowledge about
+                    python and its libraries.There are many source which can give the best programing libraries in that
+                    python is one.This language can be used in machine learning and artificial intelligence.</div>
+            </section>
+        </div>
+        <p style="color:cornsilk;text-align: center;margin-top:80px;"><small>@Portfolio Recursive star</small></p>
+        <hr
+            style="margin-top:30px;background-color:rgba(214, 214, 10, 0.638);border:none;box-shadow:0 0 20px rgba(238, 238, 19, 0.622); width:100%;height:20px;">
+</body>
+
+</html>
